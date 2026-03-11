@@ -54,7 +54,7 @@ def highest_protein_food(entries):
 
 
 def main():
-    entries = read_input("input.csv")
+    entries = read_input("data/input.csv")
 
     daily_calories = calories_per_day(entries)
     day, calories = day_with_most_calories(daily_calories)
